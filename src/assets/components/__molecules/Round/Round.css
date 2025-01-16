@@ -1,0 +1,20 @@
+.Round {
+  width: 200px;
+  height: 200px;
+  background-image: url("src/assets/image/Round.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+  .Round {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-top: 180px;
+  }
+}

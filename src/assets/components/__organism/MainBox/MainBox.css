@@ -1,0 +1,14 @@
+.MainBox {
+  width: 288px;
+  height: 272px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+  .MainBox {
+    width: 100%;
+  }
+}

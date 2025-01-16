@@ -1,0 +1,33 @@
+.RoundText > h1 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Hanken Grotesk";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+.RoundText > p {
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "liga" off, "clig" off;
+  opacity: 0.5168;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+@media (max-width: 1040px) and (min-width: 350px) {
+  .RoundText > h1 {
+    font-size: 56px;
+  }
+
+  .RoundText > p {
+    font-size: 15px;
+    margin-top: -11px;
+  }
+}
