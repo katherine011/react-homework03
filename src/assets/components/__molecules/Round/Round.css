@@ -1,7 +1,7 @@
 .Round {
   width: 200px;
   height: 200px;
-  background-image: url("src/assets/image/Round.png");
+  background-image: url("../../../image/Round.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
